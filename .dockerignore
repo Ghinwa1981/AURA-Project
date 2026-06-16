@@ -1,0 +1,20 @@
+# Exclude Python venv and caching
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Exclude repository metadata
+.git/
+.github/
+.gitignore
+
+# Exclude local editor configurations
+.vscode/
+.idea/
+
+# Exclude Docker configs
+Dockerfile
+.dockerignore
